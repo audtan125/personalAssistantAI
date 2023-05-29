@@ -1,5 +1,5 @@
 # Welcome to my AI Personal Assistant project
-The base of this project is from a UNSW group project, however the personal assistant feature was my personal addition. 
+I worked on the majority of the chat app functionality in a UNSW group project, however the personal assistant feature is my personal addition. 
 
 **A video demo**: https://www.youtube.com/watch?v=FmpydeTm3k0 
 
