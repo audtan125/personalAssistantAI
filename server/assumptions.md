@@ -1,0 +1,6 @@
+* Assume that names can have non alpha-numeric characters in them as foreign users can sign up eg names with japanese and chinese characters
+* channelMessages 'start' can't be a negative number and will return error
+* In the case where there are symbols eg chinese symbols in the first 20 characters of their handlestring we will remove the symbols. If their handlestring is all symbols then we will give them the handlestring of unrecognisedname (and append integers if there are duplicates)
+* In the case where there are symbols eg chinese symbols AFTER the first 20 characters of their handlestring then we will accept the first 20 characters as their handlestring and cut off the rest 
+* You can create a channel with the same name of an existing channel as they will have different channel Id's so will still be identifiable
+* We will allow spaces in first and last names even though they are 'special characters' - we will just remove the spaces when generating the handlestring eg first name: 'Chun Rei', last name: 'tan' will generate handlestring 'chunreitan' 
